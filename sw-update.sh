@@ -21,9 +21,9 @@ fi
 
 
 apt -y update
-apt upgrade
-apt autoremove
-#apt-get clean # clear the cache
+apt -y upgrade
+apt -y autoremove
+apt-get clean # clear the cache
 #purge-old-kernels --keep 2 # should be done by apt directly now
 
 
